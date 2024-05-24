@@ -24,18 +24,40 @@ ol {
 }
 
 
+
+
 @media (min-width: 320px) {
     .section-footer {
         padding: 40px 0px;
     }
 }
 
-@media (min-width: 320px) {
-    .container-footer {
-       
-    }
+.footer-menu {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap:25px 40px;
+    align-items: flex-start;
+    margin-right: 55px ;
+    text-align: left;
+    width: 280px;
 }
 
-.footer__menu {
-    display: flex;
+.footer-menu-item {
+    font-size: 14px;
+    text-wrap: nowrap;
 }
+
+
+.footer-page-nav {
+    display: flex;
+    justify-content: space-between;
+    /* Разделяет блоки равномерно по горизонтали */
+}
+
+
+.footer-menu-item {
+    list-style: none;
+    /* Убирает маркеры списка */
+}
+
+
