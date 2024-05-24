@@ -75,6 +75,21 @@ letter-spacing: -1.32px;
     color:#ECD979;
 }
 
-
-
+.footer-bg {
+    display: flex;
+    width: 452px;
+    height: 401px;
+    padding-right: 0.607px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-image: url(./ornament.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+}
 
