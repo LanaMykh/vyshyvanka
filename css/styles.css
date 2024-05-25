@@ -75,9 +75,11 @@ letter-spacing: -1.32px;
     color:#ECD979;
 }
 
-.footer-bg {
+.section-footer {
     display: flex;
+    flex-direction: column;
     width: 452px;
+    padding-left: 0.607px;;
     height: 401px;
     padding-right: 0.607px;
     justify-content: center;
@@ -89,7 +91,6 @@ letter-spacing: -1.32px;
     background-position: center;
     position: absolute;
     bottom: 0;
-    right: 0;
     z-index: -1;
 }
 
