@@ -76,23 +76,32 @@ letter-spacing: -1.32px;
 }
 
 .section-footer {
-    height: 637px;
+    min-height: 436px;
+    display: flex;
+    flex-direction: column;
+        position: relative;
+        
 }
 
 .footer-background {
     display: flex;
-    width: 452px;
-    height: 401px;
-    left: -40px;
-    flex-direction: column;
-    background-image: url(../ornament.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;  
-    bottom: 0;
-    position: relative;
-    top: 80px;
-
+        width: 452px;
+        height: 401px;
+        position: absolute;
+        /* Робимо позиціонування абсолютним */
+        bottom: 0;
+        /* Розташовуємо елемент внизу контейнера */
+        left: 50%;
+        /* Вирівнюємо по центру горизонтально */
+        transform: translateX(-50%);
+        /* Центруємо елемент горизонтально */
+        background-image: url('../ornament.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        z-index: -1;
+        /* Задній план */
+    
 
 }
 
