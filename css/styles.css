@@ -76,21 +76,23 @@ letter-spacing: -1.32px;
 }
 
 .section-footer {
+    height: 637px;
+}
+
+.footer-background {
     display: flex;
-    flex-direction: column;
     width: 452px;
-    padding-left: 0.607px;;
     height: 401px;
-    padding-right: 0.607px;
-    justify-content: center;
-    align-items: center;
-    flex-shrink: 0;
-    background-image: url(./ornament.png);
+    left: -40px;
+    flex-direction: column;
+    background-image: url(../ornament.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
-    position: absolute;
+    background-position: center;  
     bottom: 0;
-    z-index: -1;
+    position: relative;
+    top: 80px;
+
+
 }
 
